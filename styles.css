@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1em;
+}
+
+.page {
+  color: white;
+  background-color: black;
+  padding: 15px;
+}
+
+.page a {
+  color: white;
+}
+
+.page :visited {
+  color: white;
+}
+
+.main-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.panels-flexible-region-13-copyright {
+  width: 100%;
+}
+
+.navigation-links a {
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.warning-banner {
+  background-color: #FFE0E5;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.warning-banner ul {
+  padding: 1rem;
+  /* list-style-type: none; */
+}
+
+.warning-banner li {
+  margin-bottom: .5rem;
+}
+
+.warning-banner h3 {
+  margin-top: 0;
+}
+
+.not-active {
+  pointer-events: none;
+}
