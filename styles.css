@@ -34,10 +34,25 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.navigation-wrapper {
+  overflow: hidden;
+}
+
 .navigation-links a {
   padding: 1rem;
   text-decoration: none;
   font-weight: bold;
+}
+
+.navigation-links.left {
+  float: left;
+}
+
+.navigation-links.right {
+  float: right;
+  background-color: #3D8EB9;
+  padding: .25rem;
+  border-radius: 1rem;
 }
 
 .warning-banner {
