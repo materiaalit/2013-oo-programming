@@ -1364,11 +1364,11 @@ Arto recommendation: The Bridges of Madison County
 
 <p>Note that the parameter definition above <code>int... values</code> depends on the fact that the method has a table-like variable called <code>values</code>.</p>
 
-<p>A method can be assigned only one parameter which receives an indefinite number of values, and this must be the first parameter in the method definition. For instance:</p>
+<p>A method can be assigned only one parameter which receives an indefinite number of values, and this must be the last parameter in the method definition. For instance:</p>
 
 <pre class="sh_java">
-    public void print(String... characterStrings, int times) // right!
-    public void print(int times, String... strings) // wrong!
+    public void print(int times, String... strings) // right!
+    public void print(String... characterStrings, int times) // wrong!
 </pre>
 
 <p>An indefinite number of parameter values is used for instance when we want to create an interface which would not force the user to use a precise number of parameters. An alternative approach would be defining a list of that precise type as parameter. In this case, the objects can be assigned to the list before the method call, and the method can be called and given the list as parameter.</p>
