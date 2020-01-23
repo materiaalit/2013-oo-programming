@@ -62,6 +62,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1rem;
 }
 
+.warning-banner-yellow {
+  background-color: #FCFFE0;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
 .warning-banner ul {
   padding: 1rem;
   /* list-style-type: none; */
